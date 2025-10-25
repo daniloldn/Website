@@ -2146,7 +2146,7 @@ input, select, textarea {
     			width: 180px;        /* Change size here */
     			height: 180px;       /* Keep square for a perfect circle */
     			object-fit: cover;   /* Prevent stretching */
-				margin-left: -20px;
+				margin-left: -100px;
 			}
 
 /* List */
