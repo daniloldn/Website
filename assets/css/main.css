@@ -2135,8 +2135,9 @@ input, select, textarea {
 
 		.image.avatar {
 			border-radius: 100%;
-			margin-left: -250px;
-		}
+			position: relative; /* allow left/right positioning */
+    		left: -50px;        /* move left by 50px, adjust as needed */
+			}
 
 			.image.avatar:before {
 				display: none;
